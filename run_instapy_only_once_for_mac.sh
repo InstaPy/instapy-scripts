@@ -10,6 +10,6 @@ then
    echo $TEMPLATE_NAME" is already running"
 else
    echo "Starting "$TEMPLATE_NAME
-   /Users/ishandutta2007/.pyenv/shims/python `dirname "$0"`/../Instapy/quickstart_templates/$TEMPLATE_NAME -u myusername -p mypwd --headless-browser --disable_image_load
+   /Users/ishandutta2007/.pyenv/shims/python `dirname "$0"`/../instapy-quickstart/quickstart_templates/$TEMPLATE_NAME -u myusername -p mypwd --headless-browser --disable_image_load
 fi
 
